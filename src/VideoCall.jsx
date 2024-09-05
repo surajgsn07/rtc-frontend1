@@ -14,7 +14,7 @@ const VideoCall = () => {
 
   useEffect(() => {
     // Initialize socket.io connection
-    const socket = io('https://rtc-backend1.vercel.app/'); // Replace with your server URL
+    const socket = io('https://rtc-backend1.onrender.com/'); // Replace with your server URL
     setSocket(socket);
 
     socket.on('connect', () => {
